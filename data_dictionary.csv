@@ -1,0 +1,18 @@
+column,meaning,type,missing_pct,readiness
+iso_code,ISO country/territory code; OWID Kosovo exception,Qualitative; nominal,0.0,Ready after country/date validation
+location,Country/territory name,Qualitative; nominal,0.0,Ready after country/date validation
+continent,Continent grouping,Qualitative; nominal,0.0,Ready after country/date validation
+date,Observation date,Temporal; ordered discrete daily index,0.0,Ready after country/date validation
+total_cases,Cumulative reported confirmed cases,Quantitative; discrete count,1.0405692731564224,Needs missingness handling; do not assume zero
+new_cases,Reported new cases for the day,Quantitative; discrete count,1.8610046839594045,Needs missingness handling; do not assume zero
+new_cases_smoothed,Source-smoothed daily new cases,Quantitative; continuous average,2.05825161300467,Needs missingness handling; do not assume zero
+total_deaths,Cumulative reported deaths,Quantitative; discrete count,1.0405692731564224,Needs missingness handling; do not assume zero
+new_deaths,Reported new deaths for the day,Quantitative; discrete count,1.64890745467601,Needs missingness handling; do not assume zero
+total_deaths_per_million,Cumulative deaths per million people,Quantitative; continuous rate,1.0405692731564224,Needs missingness handling; do not assume zero
+population,Population denominator,Quantitative; discrete estimate,0.4247185868104875,Needs missingness handling; do not assume zero
+population_density,People per square kilometre,Quantitative; continuous,2.124117062296136,Needs missingness handling; do not assume zero
+median_age,Median population age in years,Quantitative; continuous,0.4247185868104875,Needs missingness handling; do not assume zero
+gdp_per_capita,GDP per person; consult OWID metadata for price basis,Quantitative; continuous,15.961102695940976,Needs missingness handling; do not assume zero
+hospital_beds_per_thousand,"Hospital beds per 1,000 people",Quantitative; continuous,28.564989281577418,Needs missingness handling; do not assume zero
+life_expectancy,"Life expectancy at birth, years",Quantitative; continuous,0.4247185868104875,Needs missingness handling; do not assume zero
+human_development_index,Composite human development index,Quantitative; continuous,100.0,Needs missingness handling; do not assume zero
